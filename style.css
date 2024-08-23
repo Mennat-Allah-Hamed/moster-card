@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fff;
+}
+.container .card{
+    width: 400px;
+    height: 220px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 25px;
+    padding: 25px;
+}
+.container .card .head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20%;
+    padding: 0 10px 0 0;
+}
+.name-card{
+    display: flex;
+    align-items: center;
+}
+.name-card .logo{
+    display: flex;
+}
+.name-card .logo div{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.name-card .logo div:first-child{
+    background-color: #ff0000;
+}
+.name-card .logo div:nth-child(2){
+    background-color: #ff9606;
+    margin-left: -10px;
+    opacity: 0.9;
+}
+.name-card p{
+    font-size: 16px;
+    margin-left: 10px;
+    text-transform: capitalize;
+}
+.head .chip{
+    width: 50px;
+    height: 35px;
+    display: flex;
+}
+.chip img{
+    width: 100%;
+    height: 100%;
+}
+.td-card{
+    margin-top: 30px;
+}
+.td-card p:first-child{
+    font-size: 14px;
+    text-transform: capitalize;
+}
+.td-card p:nth-child(2){
+    font-size: 18px;
+}
+.tf-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+.tf-card p{
+    text-transform: capitalize;
+}
+.d-card{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 18px;
+}
+.d-card p:first-child{
+    font-size: 12px;
+}
